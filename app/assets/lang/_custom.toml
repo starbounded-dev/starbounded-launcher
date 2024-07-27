@@ -1,20 +1,20 @@
 # Custom Language File for Launcher Customizer
 
 [ejs.app]
-title = "Helios Launcher"
+title = "Starbounded Launcher"
 
 [ejs.landing]
-mediaGitHubURL = "https://github.com/dscalzi/HeliosLauncher"
+mediaGitHubURL = "https://github.com/starbounded-dev/starbounded-launcher"
 mediaTwitterURL = "#"
 mediaInstagramURL = "#"
 mediaYouTubeURL = "#"
-mediaDiscordURL = "https://discord.gg/zNWUXdt"
+mediaDiscordURL = "https://discord.gg/G8kGNXR2Ef"
 
 [ejs.settings]
-sourceGithubLink = "https://github.com/dscalZi/HeliosLauncher"
-supportLink = "https://github.com/dscalZi/HeliosLauncher/issues"
+sourceGithubLink = "https://github.com/starbounded-dev/starbounded-launcher"
+supportLink = "https://github.com/starbounded-dev/starbounded-launcher/issues"
 
 [ejs.welcome]
-welcomeHeader = "WELCOME TO WESTEROSCRAFT"
-welcomeDescription = "Our mission is to recreate the universe imagined by author George RR Martin in his fantasy series, A Song of Ice and Fire.  Through the collaborative effort of thousands of community members, we have sought to create Westeros as accurately and precisely as possible within Minecraft.  The world we are creating is yours to explore.  Journey from Dorne to Castle Black, and if you aren’t afraid, beyond the Wall itself, but best not delay.  As the words of House Stark ominously warn: Winter is Coming."
-welcomeDescCTA = "You are just a few clicks away from Westeros."
+welcomeHeader = "WELCOME TO STARBOUNDED"
+welcomeDescription = "Our mission is to recreate the universe of Minecraft with unparalleled innovation and complexity. Through the collaborative effort of thousands of community members, we aim to build Starbounded as accurately and creatively as possible within Minecraft. The world we are crafting is yours to explore. Journey through mechanical marvels and intricate networks from the Redstone Realm to the Quantum Fields, and if you dare, venture beyond the Ether itself. But be quick, for as the machines hum and energy pulses, an unknown future awaits."
+welcomeDescCTA = "You are just a few clicks away from Starbounded."
