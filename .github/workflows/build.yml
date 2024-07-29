@@ -37,8 +37,14 @@ jobs:
         run: npm run dist
         shell: bash
 
-      - name: Upload Artifact
+      - name: Upload Setup Artifact
         uses: actions/upload-artifact@v4.3.4
         with:
-          name: ${{ runner.os }}-dist
+          name: ${{ runner.os }}-dist-setup
           path: ./dist/Starbounded-Launcher-setup-*.*
+
+      - name: Upload Binary Artifact
+        uses: actions/upload-artifact@v4.3.4
+        with:
+          name: ${{ runner.os }}-dist-binary
+          path: ./dist/${{ runner.os }}-unpacked
