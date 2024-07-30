@@ -5,9 +5,9 @@ title = "Starbounded Launcher"
 
 [ejs.landing]
 mediaGitHubURL = "https://github.com/starbounded-dev/starbounded-launcher"
-mediaTwitterURL = "#"
+mediaTwitterURL = "https://x.com/StarboundedSTD"
 mediaInstagramURL = "#"
-mediaYouTubeURL = "#"
+mediaYouTubeURL = "https://www.youtube.com/@StarboundedSTD "
 mediaDiscordURL = "https://discord.gg/G8kGNXR2Ef"
 
 [ejs.settings]

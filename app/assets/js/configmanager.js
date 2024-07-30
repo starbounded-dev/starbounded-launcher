@@ -7,7 +7,7 @@ const logger = LoggerUtil.getLogger('ConfigManager')
 
 const sysRoot = process.env.APPDATA || (process.platform == 'darwin' ? process.env.HOME + '/Library/Application Support' : process.env.HOME)
 
-const dataPath = path.join(sysRoot, '.starboundedlauncher')
+const dataPath = path.join(sysRoot, '.starbounded')
 
 const launcherDir = require('@electron/remote').app.getPath('userData')
 
@@ -45,7 +45,7 @@ const firstLaunch = !fs.existsSync(configPath) && !fs.existsSync(configPathLEGAC
 
 exports.getAbsoluteMinRAM = function(ram){
     if(ram?.minimum != null) {
-        return ram.minimum/1024
+        return ram.minimum/2048
     } else {
         // Legacy behavior
         const mem = os.totalmem()
