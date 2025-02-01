@@ -1360,6 +1360,13 @@ body, button {
     border-radius: 50px;
     border: 1px solid rgba(126, 126, 126, 0.57);
 }
+
+input:disabled + .toggleSwitchSlider {
+    background-color: rgb(77, 77, 77);
+    /* box-shadow: inset 2px 1px 20px black; */
+    border: 1px solid rgb(30, 31, 30)
+}
+
 .toggleSwitchSlider:before {
     position: absolute;
     content: "";
@@ -1372,6 +1379,13 @@ body, button {
     border-radius: 50px;
     transition: .4s;
 }
+
+input:checked:disabled + .toggleSwitchSlider {
+    background-color: rgb(74, 95, 71);
+    /* box-shadow: inset 2px 1px 20px black; */
+    border: 1px solid rgb(74, 83, 72)
+}w
+
 input:checked + .toggleSwitchSlider {
     background-color: rgb(31, 140, 11);
     /* box-shadow: inset 2px 1px 20px black; */
