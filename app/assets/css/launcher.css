@@ -3702,10 +3702,7 @@ input:checked + .toggleSwitchSlider:before {
     position: relative;
     background: rgba(131, 131, 131, 0.25);
 }
-.serverListing[selected] {
-    cursor: default;
-    opacity: 1.0;
-}
+
 .serverListing:hover,
 .serverListing:focus {
     outline: none;
@@ -3858,7 +3855,8 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Content container which contains the server select actions. */
 #serverSelectActions,
-#accountSelectActions {
+#accountSelectConfirm,
+#accountSelectManage {
     display: flex;
     flex-direction: column;
     justify-content: center;
