@@ -1,7 +1,7 @@
 [ejs.landing]
 updateAvailableTooltip = "Update Available"
 usernamePlaceholder = "Username"
-usernameEditButton = "Edit"
+usernameEditButton = "Switch"
 settingsTooltip = "Settings"
 serverStatus = "SERVER"
 serverStatusPlaceholder = "OFFLINE"
@@ -42,13 +42,13 @@ cancelButton = "Cancel"
 
 [ejs.overlay]
 serverSelectHeader = "Available Servers"
-serverSelectConfirm = "Select"
-serverSelectCancel = "Cancel"
 accountSelectHeader = "Select an Account"
 accountSelectConfirm = "Select"
 accountSelectCancel = "Cancel"
+accountSelectManage = "Manage Accounts"
 
 [ejs.settings]
+closeLauncherOnLaunch = "Close the launcher when the game is launched."
 navHeaderText = "Settings"
 navAccount = "Account"
 navMinecraft = "Minecraft"
@@ -217,6 +217,12 @@ joined = "Exploring the Realm!"
 
 [js.overlay]
 dismiss = "Dismiss"
+
+[js.processbuilder.exit]
+exitErrorHeader = "Game exited with an error code"
+message = "The game exited abnormally with the exit code: "
+copyCode = "Copy exit code"
+copyCodeText = "Minecraft exit code "
 
 [js.settings.fileSelectors]
 executables = "Executables"
